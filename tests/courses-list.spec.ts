@@ -4,7 +4,6 @@ test("create delete courses list", async ({ page }) => {
   await page.locator("body").click();
   await page.locator("body").click();
   await page.locator("body").click();
-  await page.goto("/");
   await page.locator("div > div").first().click();
   await page.locator("div > div").first().click();
   await page.locator("div > div").first().click();
